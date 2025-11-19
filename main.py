@@ -4,9 +4,9 @@ from flask import Flask
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-API_ID = int(os.getenv("22993457"))
-API_HASH = os.getenv("c4e87efc07ddee8948acf641ee297a28")
-BOT_TOKEN = os.getenv("8375416782:AAEYO6suD5BPqKKh85BcHe7yp9W_zWp_TnE")
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 app = Client(
     "DirectLinkBot",
