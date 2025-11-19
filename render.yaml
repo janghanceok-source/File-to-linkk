@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: tg-file-link-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: API_ID
+        value: "22993457"
+      - key: API_HASH
+        value: "c4e87efc07ddee8948acf641ee297a28"
+      - key: BOT_TOKEN
+        value: "8375416782:AAEYO6suD5BPqKKh85BcHe7yp9W_zWp_TnE"
